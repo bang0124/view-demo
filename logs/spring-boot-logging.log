@@ -906,3 +906,27 @@ If you want an embedded database please put a supported one on the classpath. If
 2017-11-10 13:29:05.053  INFO 94041 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
 2017-11-10 13:29:05.310  INFO 94041 --- [main] c.a.view.ViewPackageApplicationTests     : Started ViewPackageApplicationTests in 3.227 seconds (JVM running for 4.218)
 2017-11-10 13:29:05.365  INFO 94041 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@418c5a9c: startup date [Fri Nov 10 13:29:02 KST 2017]; root of context hierarchy
+2017-11-10 13:38:34.714  INFO 94090 --- [restartedMain] com.aircuve.view.ViewPackageApplication  : Starting ViewPackageApplication on bangseunghoui-MacBook-Pro.local with PID 94090 (/Users/bangseungho/git/view-demo/target/classes started by bangseungho in /Users/bangseungho/git/view-demo)
+2017-11-10 13:38:34.728 DEBUG 94090 --- [restartedMain] com.aircuve.view.ViewPackageApplication  : Running with Spring Boot v1.4.7.RELEASE, Spring v4.3.9.RELEASE
+2017-11-10 13:38:34.728  INFO 94090 --- [restartedMain] com.aircuve.view.ViewPackageApplication  : No active profile set, falling back to default profiles: default
+2017-11-10 13:38:34.816  INFO 94090 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1ecfe6d5: startup date [Fri Nov 10 13:38:34 KST 2017]; root of context hierarchy
+2017-11-10 13:38:36.939  INFO 94090 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8443 (https)
+2017-11-10 13:38:36.957  INFO 94090 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-11-10 13:38:36.960  INFO 94090 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-11-10 13:38:37.069  INFO 94090 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-11-10 13:38:37.070  INFO 94090 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2254 ms
+2017-11-10 13:38:37.287  INFO 94090 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-10 13:38:37.292  INFO 94090 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-10 13:38:37.295  INFO 94090 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-10 13:38:37.297  INFO 94090 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-10 13:38:37.300  INFO 94090 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-10 13:38:37.675  INFO 94090 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1ecfe6d5: startup date [Fri Nov 10 13:38:34 KST 2017]; root of context hierarchy
+2017-11-10 13:38:37.765  INFO 94090 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-11-10 13:38:37.767  INFO 94090 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-11-10 13:38:37.833  INFO 94090 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-10 13:38:37.834  INFO 94090 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-10 13:38:37.917  INFO 94090 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-10 13:38:38.141  INFO 94090 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2017-11-10 13:38:38.213  INFO 94090 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-11-10 13:38:38.660  INFO 94090 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8443 (https)
+2017-11-10 13:38:38.673  INFO 94090 --- [restartedMain] com.aircuve.view.ViewPackageApplication  : Started ViewPackageApplication in 4.695 seconds (JVM running for 5.875)
