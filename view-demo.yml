@@ -1,0 +1,19 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: view-demo
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: view-demo
+    spec:
+      imagePullSecrets:
+        - name: cubelgrg
+      containers:
+      - name: auth-portal
+        image: cubelgregistry.azurecr.io/cubelogin/view-demo:latest
+        ports:
+        - containerPort: 8080
+        name : view-demo

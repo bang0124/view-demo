@@ -1,0 +1,32 @@
+# logback configuration
+logging:
+  level:
+   org.springframework.web: INFO
+   com.aircuve: DEBUG
+  file: logs/spring-boot-logging.log
+
+  
+---
+
+spring.profiles: logging-daily
+logging:
+  config: classpath:logback.xml
+---
+spring.profiles: logging-info
+logging:
+  file: logs/application.log
+  level:
+    org.thymeleaf: INFO
+    org.springframework.web: INFO
+    org.hibernate.SQL: INFO
+    org.quartz.core: INFO
+    org.h2.server.web: INFO
+--- 
+server:
+  port: 8443
+  ssl:
+    enabled: true
+    protocol: TLS
+    key-store: classpath:_wildcard_cubelogin_net.pfx
+    key-store-password: "74300"
+    key-store-type: PKCS12    
