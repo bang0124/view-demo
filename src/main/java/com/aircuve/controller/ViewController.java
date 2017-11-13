@@ -14,4 +14,12 @@ public class ViewController {
 		return "home";
 	}
 	
+	
+	
+	@RequestMapping(value="/regist", method=RequestMethod.GET) 
+	public String regist() {
+		
+		return "regist/regist";
+	}
+	
 }
