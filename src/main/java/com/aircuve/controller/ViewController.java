@@ -5,21 +5,22 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
+@RequestMapping("/view")
 public class ViewController {
 	
 	
-	@RequestMapping(value="/home", method=RequestMethod.GET) 
+	@RequestMapping(value="/login", method=RequestMethod.GET) 
 	public String home() {
 		
-		return "home";
+		return "login/login";
 	}
 	
 	
 	
-	@RequestMapping(value="/regist", method=RequestMethod.GET) 
+	@RequestMapping(value="/result", method=RequestMethod.GET) 
 	public String regist() {
 		
-		return "regist/regist";
+		return "login/result";
 	}
 	
 }
