@@ -9,11 +9,11 @@ spec:
       labels:
         app: view-demo
     spec:
-      imagePullSecrets:
-        - name: cubelgrg
+      #imagePullSecrets:
+      #  - name: cubelgrg
       containers:
-      - name: auth-portal
-        image: cubelgregistry.azurecr.io/cubelogin/view-demo:latest
+      - name: view-demo
+        image: opencloudregistry.azurecr.io/clouddemo/view-demo:latest
         ports:
         - containerPort: 8080
         name : view-demo

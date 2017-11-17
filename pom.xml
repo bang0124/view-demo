@@ -84,7 +84,7 @@
 				  </executions>
 				  
 	            <configuration>
-	           		 <repository>cubelgregistry.azurecr.io/cubelogin/view-demo</repository>
+	           		 <repository>opencloudregistry.azurecr.io/clouddemo/view-demo</repository>
     				<tag>latest</tag>
     				<googleContainerRegistryEnabled>false</googleContainerRegistryEnabled>
 	            </configuration>
