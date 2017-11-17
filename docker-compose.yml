@@ -1,0 +1,12 @@
+version: "3.3"
+services:
+    view-demo:
+      image: opencloudregistry.azurecr.io/clouddemo/view-demo
+      container_name: view-demo
+      ports:
+        - "443:8443"
+    api-demo:
+      image: opencloudregistry.azurecr.io/clouddemo/api-demo
+      container_name: api-demo
+     
+        
