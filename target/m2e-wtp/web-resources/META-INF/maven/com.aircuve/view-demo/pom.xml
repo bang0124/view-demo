@@ -85,7 +85,7 @@
 				  
 	            <configuration>
 	           		 <repository>opencloudregistry.azurecr.io/clouddemo/view-demo</repository>
-    				<tag>latest</tag>
+    				<tag><!-- ${maven.build.timestamp} --> 1</tag>
     				<googleContainerRegistryEnabled>false</googleContainerRegistryEnabled>
 	            </configuration>
         	</plugin>
