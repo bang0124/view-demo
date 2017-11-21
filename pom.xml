@@ -85,7 +85,7 @@
 				  
 	            <configuration>
 	           		 <repository>opencloudregistry.azurecr.io/clouddemo/view-demo</repository>
-    				<tag>1</tag>
+    				 <tag>2</tag>
     				<googleContainerRegistryEnabled>false</googleContainerRegistryEnabled>
 	            </configuration>
         	</plugin>
