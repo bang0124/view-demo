@@ -4,7 +4,7 @@ metadata:
   name: view-demo
 spec:
   replicas: 1
-  minReadySeconds: 30
+  minReadySeconds: 60
   strategy:
     type: RollingUpdate
     rollingUpdate:
@@ -19,7 +19,7 @@ spec:
       #  - name: cubelgrg
       containers:
       - name: view-demo
-        image: opencloudregistry.azurecr.io/clouddemo/view-demo:1
+        image: opencloudregistry.azurecr.io/clouddemo/view-demo:2
         ports:
         - containerPort: 8443
         name : view-demo
