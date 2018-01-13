@@ -25,7 +25,7 @@
               <form>
                   <fieldset>
                       <legend>cube login</legend>
-                      <h1>데모를 시연 합니다.</h1>
+                      <h1>데모를 완료 합니다.</h1>
                   </fieldset>
               </form>
             </div><!---/cls_CreateForm-->
